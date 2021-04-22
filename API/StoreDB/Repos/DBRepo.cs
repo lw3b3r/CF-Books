@@ -37,9 +37,6 @@ namespace StoreDB
         public List<Book> GetAllBooks() {
             return context.Books.Select(x => x).ToList();
         }
-        public List<Book> GetAllBooksAtLocationId(int id) {
-            return context.Books.Where(x => x.id == id).ToList();
-        }
         public void DeleteBook(Book book) {
             context.Books.Remove(book);
             context.SaveChanges();

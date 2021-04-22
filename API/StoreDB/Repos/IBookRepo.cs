@@ -10,7 +10,6 @@ namespace StoreDB.Repos
          Book GetBookById(int id);
          Book GetBookByTitle(string title);
          List<Book> GetAllBooks();
-         List<Book> GetAllBooksAtLocationId(int id);
          void DeleteBook(Book book);
     }
 }

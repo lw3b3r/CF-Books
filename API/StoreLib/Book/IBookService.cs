@@ -8,7 +8,6 @@ namespace StoreLib
         void AddBook(Book book);
         void DeleteBook(Book book);
         List<Book> GetAllBooks();
-        List<Book> GetAllBooksAtLocationId(int id);
         Book GetBookById(int id);
         Book GetBookByTitle(string title);
         void UpdateBook(Book book);

@@ -41,12 +41,6 @@ namespace StoreLib
             return books;
         }
 
-        public List<Book> GetAllBooksAtLocationId(int id)
-        {
-            List<Book> books = repo.GetAllBooksAtLocationId(id);
-            return books;
-        }
-
         public void DeleteBook(Book book)
         {
             repo.DeleteBook(book);
