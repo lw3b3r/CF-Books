@@ -24,12 +24,6 @@ namespace StoreLib
             repo.UpdateCart(cart);
         }
 
-        public Cart GetCartById(int id)
-        {
-            Cart cart = repo.GetCartById(id);
-            return cart;
-        }
-
         public Cart GetCartByUserId(int id)
         {
             Cart cart = repo.GetCartByUserId(id);

@@ -9,7 +9,6 @@ namespace StoreLib
         void DeleteLocation(Location location);
         List<Location> GetAllLocations();
         Location GetLocationById(int id);
-        Location GetLocationByState(string state);
         void UpdateLocation(Location location);
     }
 }

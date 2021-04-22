@@ -85,8 +85,5 @@ namespace StoreAPI.Controllers
             }
         }
 
-
-        //Cart GetCartById(int id);
-        //TODO implemented but don't think it should be, doesn't work anyways void UpdateCart(Cart cart);
     }
 }

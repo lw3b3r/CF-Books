@@ -30,12 +30,6 @@ namespace StoreLib
             return location;
         }
 
-        public Location GetLocationByState(string state)
-        {
-            Location location = repo.GetLocationByState(state);
-            return location;
-        }
-
         public List<Location> GetAllLocations()
         {
             List<Location> locations = repo.GetAllLocations();

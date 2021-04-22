@@ -96,9 +96,5 @@ namespace StoreAPI.Controllers
             }
         }
 
-
-
-        //TODO not implemented because dont need this 
-        // Location GetLocationByState(string state);
     }
 }
